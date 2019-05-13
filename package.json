@@ -6,12 +6,17 @@
   "scripts": {
     "start": "node app.js"
   },
-  "author": "Usman Shakir",
-  "license": "ISC",
-  "dependencies": {
+    "author": "Usman Shakir",
+    "license": "ISC",
+    "dependencies": {
+    "body-parser": "^1.19.0",
+    "cookie-parser": "^1.4.4",
     "express": "^4.16.4",
     "express-handlebars": "^3.0.2",
-    "mongoose": "^5.5.6"
+    "express-session": "^1.16.1",
+    "mongoose": "^5.5.6",
+    "passport": "^0.4.0",
+    "passport-google-oauth20": "^2.0.0"
   },
   "devDependencies": {
     "nodemon": "^1.19.0"
